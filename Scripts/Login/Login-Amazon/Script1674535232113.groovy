@@ -21,15 +21,20 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.amazon.com/')
 
-WebUI.click(findTestObject('Object Repository/Page_Amazon.com. Spend less. Smile more/span_Sign in'))
+//WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Object Repository/Page_Amazon Sign-In/input_Email or mobile phone number_email'), 'ktlntst@gmail.com')
+WebUI.click(findTestObject('Object Repository/Page_Amazon Sign-In/clckSignin'))
 
-WebUI.click(findTestObject('Object Repository/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402'))
+WebUI.maximizeWindow()
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Amazon Sign-In/input_Forgot your password_password'), '8ONjX3ggx5RmoBbvnoZOyw==')
+WebUI.setText(findTestObject('Object Repository/Page_Amazon Sign-In/InputText'), 'ktlntst@gmail.com')
 
-WebUI.click(findTestObject('Object Repository/Page_Amazon Sign-In/input_Enter your password_signInSubmit'))
+WebUI.click(findTestObject('Object Repository/Page_Amazon Sign-In/clckCont'))
 
-WebUI.closeBrowser()
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Amazon Sign-In/password'), '8ONjX3ggx5RmoBbvnoZOyw==')
 
+WebUI.click(findTestObject('Object Repository/Page_Amazon Sign-In/signIn'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Amazon.com  Music/protectPassword'), '8ONjX3ggx5RmoBbvnoZOyw==')
+
+WebUI.click(findTestObject('Object Repository/Page_Amazon.com  Music/impairedVision'))
