@@ -36,6 +36,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Amazon Sign-In/pas
 
 WebUI.click(findTestObject('Object Repository/Page_Amazon Sign-In/signIn'))
 
+WebUI.delay(3)
+
 WebUI.setText(findTestObject('Object Repository/Page_Amazon.com  Music/protectPassword'), '8ONjX3ggx5RmoBbvnoZOyw==')
 
 WebUI.click(findTestObject('Object Repository/Page_Amazon.com  Music/impairedVision'))
