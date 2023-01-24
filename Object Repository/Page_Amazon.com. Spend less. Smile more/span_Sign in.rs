@@ -22,6 +22,38 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>4e746f23-831b-4f23-9322-adfdfb61c711</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nav-action-inner</value>
+      <webElementGuid>aa77d0b7-24f8-4ff3-9863-a50f2c48f134</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sign in</value>
+      <webElementGuid>dc53e081-783a-48d1-8695-d01aabb538a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;nav-flyout-ya-signin&quot;)/a[@class=&quot;nav-action-button&quot;]/span[@class=&quot;nav-action-inner&quot;]</value>
+      <webElementGuid>a5f264f2-00ae-4575-8fca-556e480bd484</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
       <webElementGuid>fe5847da-592e-451a-947e-bb7cdf7d38e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
@@ -33,7 +65,7 @@
       <webElementGuid>7d30f3d7-51d7-49cd-85a5-7b521fe1bf42</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -54,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='nav-flyout-ya-signin']/a/span</value>
-      <webElementGuid>7eb16090-6297-47bd-ba38-3e1dbf328bc1</webElementGuid>
+      <webElementGuid>cc859e6a-c9f2-42ab-8285-9bc1518c9c94</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Want up to 50% off Prime?'])[1]/following::span[1]</value>
-      <webElementGuid>5555db59-9f03-401e-a8bc-4b9c29b54f84</webElementGuid>
+      <webElementGuid>565e7dfc-1543-4b37-a488-e7eaeb881376</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Have an EBT card/receive government assistance?'])[1]/following::span[1]</value>
-      <webElementGuid>e23a5d42-eaa5-41f7-b536-e6bdedcbe4f3</webElementGuid>
+      <webElementGuid>a676db31-8455-4880-b8f1-2db0cf99b465</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Start here.'])[1]/preceding::span[1]</value>
-      <webElementGuid>7ab4127f-6c7e-48a0-afad-884b2ba6c9e1</webElementGuid>
+      <webElementGuid>91903fee-e063-48d4-9cdb-2de4580bcebe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Sign in']/parent::*</value>
-      <webElementGuid>ef592011-94f2-4893-abf2-11dffdc41aed</webElementGuid>
+      <webElementGuid>893b9996-1832-41b2-aee8-d4b954acc9e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +126,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/a/span</value>
-      <webElementGuid>400ec06b-a47e-4979-bcb6-a5358b691b46</webElementGuid>
+      <webElementGuid>75bad578-8432-4d37-991d-e2da56239234</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +134,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Sign in' or . = 'Sign in')]</value>
-      <webElementGuid>030c0051-e9b2-4b86-97e2-018811482dcc</webElementGuid>
+      <webElementGuid>ed7e5557-43c0-44c8-8361-239c60b42d72</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

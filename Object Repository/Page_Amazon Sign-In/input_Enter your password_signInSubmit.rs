@@ -22,10 +22,66 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>d4b49f87-54b0-4abd-80ae-f0b6bf1e64d4</webElementGuid>
+      <webElementGuid>89796ad2-47cc-4a53-b8f9-c70d98656299</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>signInSubmit</value>
+      <webElementGuid>46801475-b1b7-493e-a50d-1617d30e06cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>3</value>
+      <webElementGuid>824c8a30-a025-4f80-a577-1d43db7df5bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-button-input</value>
+      <webElementGuid>2becc17f-8b96-47b7-b449-b19313ba7a33</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>0eae33c6-009f-41a1-8b04-83a05c541fb1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-labelledby</name>
+      <type>Main</type>
+      <value>auth-signin-button-announce</value>
+      <webElementGuid>cd74c271-322e-42c2-8e85-2dd9fce751d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;signInSubmit&quot;)</value>
+      <webElementGuid>0d753665-fb76-4f38-9801-0a3da20a3f6c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>d4b49f87-54b0-4abd-80ae-f0b6bf1e64d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -49,7 +105,7 @@
       <webElementGuid>6429ee95-4a82-4f0e-a2c2-1d10e7c6fd8c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -78,7 +134,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='signInSubmit']</value>
-      <webElementGuid>488943ce-6b0d-465e-a5bc-6abd353570c3</webElementGuid>
+      <webElementGuid>2c23274d-54f4-43d3-bc46-fe74463999ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +142,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='auth-signin-button']/span/input</value>
-      <webElementGuid>ba960215-b661-4bcd-b57f-5be14e689f0e</webElementGuid>
+      <webElementGuid>68969dd9-150c-4eec-9aa8-4eb4d111cb15</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +150,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/input</value>
-      <webElementGuid>c487439c-9078-476e-bf3c-b9df3ade7253</webElementGuid>
+      <webElementGuid>8959f9c7-7434-4717-98a9-0a1c474afff4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +158,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'signInSubmit' and @type = 'submit']</value>
-      <webElementGuid>cb84a03d-112f-482f-bae0-597e713025f4</webElementGuid>
+      <webElementGuid>16bb3999-1a55-4a80-aa11-5bb283b18c97</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
