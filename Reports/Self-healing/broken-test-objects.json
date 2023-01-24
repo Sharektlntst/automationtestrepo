@@ -1,3 +1,14 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Amazon.com. Spend less. Smile more/input_Amazon_field-keywords",
+      "brokenLocator": "//input[@id\u003d\u0027nav-bb-search\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    }
+  ]
 }
