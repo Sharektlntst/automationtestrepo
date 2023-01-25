@@ -24,7 +24,7 @@ WebUI.navigateToUrl('https://www.amazon.com/')
 WebUI.maximizeWindow()
 //Add comments
 
-WebUI.delay(3)
+//WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/Page_Amazon Sign-In/clckSignin'))
 
@@ -36,7 +36,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Amazon Sign-In/pas
 
 WebUI.click(findTestObject('Object Repository/Page_Amazon Sign-In/signIn'))
 
-WebUI.delay(3)
+//WebUI.delay(3)
 
 WebUI.setText(findTestObject('Object Repository/Page_Amazon.com  Music/protectPassword'), '8ONjX3ggx5RmoBbvnoZOyw==')
 
