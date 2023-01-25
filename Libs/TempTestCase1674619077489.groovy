@@ -18,7 +18,7 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\ramaa\\AppData\\Local\\Temp\\Katalon\\Test Cases\\search\\SearchMusic\\20230123_233630\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\ramaa\\AppData\\Local\\Temp\\Katalon\\Test Cases\\search\\SearchMusic\\20230124_215757\\execution.properties')
 
 TestCaseMain.beforeStart()
 

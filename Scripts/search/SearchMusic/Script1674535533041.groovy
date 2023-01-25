@@ -20,8 +20,8 @@ import org.openqa.selenium.Keys as Keys
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.amazon.com/')
-
-WebUI.maximizeWindow()
+ //masked the maxim and delays
+//WebUI.maximizeWindow()
 //Add comments
 
 //WebUI.delay(3)
@@ -38,9 +38,9 @@ WebUI.click(findTestObject('Object Repository/Page_Amazon Sign-In/signIn'))
 
 //WebUI.delay(3)
 
-WebUI.setText(findTestObject('Object Repository/Page_Amazon.com  Music/protectPassword'), '8ONjX3ggx5RmoBbvnoZOyw==')
+//WebUI.setText(findTestObject('Object Repository/Page_Amazon.com  Music/protectPassword'), '8ONjX3ggx5RmoBbvnoZOyw==')
 
-WebUI.click(findTestObject('Object Repository/Page_Amazon.com  Music/impairedVision'))
+//WebUI.click(findTestObject('Object Repository/Page_Amazon.com  Music/impairedVision'))
 
 
 //WebUI.navigateToUrl('https://www.amazon.com/')*/
@@ -49,7 +49,7 @@ WebUI.setText(findTestObject('Object Repository/Page_Amazon.com  Music/searchMus
 ////*[@id="nav-flyout-searchAjax"]/div[2]/div[2]/div
 WebUI.click(findTestObject('Object Repository/Page_Amazon.com  Music/clckSearch'))
 
-WebUI.click(findTestObject('Object Repository/Page_Amazon.com  Music/musicPlayer'))
+//WebUI.click(findTestObject('Object Repository/Page_Amazon.com  Music/musicPlayer'))
 
 //WebUI.click(findTestObject('Object Repository/Page_Amazon.com  Music/piMusic'))
 
