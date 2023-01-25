@@ -17,24 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://www.amazon.com/')
-
-//WebUI.maximizeWindow()
-
-WebUI.click(findTestObject('Object Repository/Page_Amazon Sign-In/clckSignin'))
-
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('Object Repository/Page_Amazon Sign-In/InputText'), 'ktlntst@gmail.com')
-
-WebUI.click(findTestObject('Object Repository/Page_Amazon Sign-In/clckCont'))
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Amazon Sign-In/password'), '8ONjX3ggx5RmoBbvnoZOyw==')
-
-WebUI.click(findTestObject('Object Repository/Page_Amazon Sign-In/signIn'))
-
-//WebUI.setText(findTestObject('Object Repository/Page_Amazon.com  Music/protectPassword'), '8ONjX3ggx5RmoBbvnoZOyw==')
-
-//WebUI.click(findTestObject('Object Repository/Page_Amazon.com  Music/impairedVision'))

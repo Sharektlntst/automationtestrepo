@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\ramaa\\AppData\\Local\\Temp\\Katalon\\Test Cases\\search\\SearchMusic\\20230124_215757\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\ramaa\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Login\\Login-Amazon\\20230124_221140\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/search/SearchMusic', new TestCaseBinding('Test Cases/search/SearchMusic',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Login/Login-Amazon', new TestCaseBinding('Test Cases/Login/Login-Amazon',[:]), FailureHandling.STOP_ON_FAILURE , false)
     
